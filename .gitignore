@@ -1,5 +1,6 @@
 /Prj_O_R/
 /x64/
+/lib/
 # Visual Studio
 .vs/
 *.user
