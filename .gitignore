@@ -1,0 +1,7 @@
+/Prj_O_R/
+/x64/
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sin.docsstates
