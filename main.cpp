@@ -23,12 +23,12 @@ int main()
 	sf::Text text_hello(font_arial);
 	text_hello.setString("Hallo Hallo!");
 	text_hello.setCharacterSize(26);
-	//text_hello.setFillColor(sf::Text::Bold | sf::Text::Underlined);
+	text_hello.setFillColor(sf::Color::Green);
 
 	while (window.isOpen()) 
 	{
 
-		while (const auto event = window.pollEvent()) 
+		while (const std::optional event = window.pollEvent()) 
 		{
 			if (event->getIf<sf::Event::Closed>())
 				window.close();
